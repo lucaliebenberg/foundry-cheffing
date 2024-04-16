@@ -35,7 +35,7 @@ contract HelperConfig is Script {
     }
 
     function getMainnetEthConfig() public pure returns (NetworkConfig memory) {
-    // ETH/USDv --> 0x694AA1769357215DE4FAC081bf1f309aDC325306
+        // ETH/USDv --> 0x694AA1769357215DE4FAC081bf1f309aDC325306
         NetworkConfig memory ethConfig = NetworkConfig({
         priceFeed: 0x694AA1769357215DE4FAC081bf1f309aDC325306
     });
